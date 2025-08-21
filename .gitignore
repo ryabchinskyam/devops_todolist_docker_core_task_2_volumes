@@ -1,0 +1,29 @@
+# Python bytecode, caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Coverage
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE settings
+.idea/
+
+# pytest
+.pytest_cache/
+
+# Logs and envs
+*.log
+.env
+
+# Docker
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db

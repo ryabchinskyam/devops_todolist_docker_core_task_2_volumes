@@ -1,29 +1,30 @@
-# Python bytecode, caches
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
 
-# Coverage
-.coverage
-htmlcov/
+# Django / SQLite
+db.sqlite3
+db.sqlite3-journal
 
-# Virtual environments
-.venv/
+# Віртуальні середовища
 venv/
+.venv/
 
-# IDE settings
-.idea/
-
-# pytest
-.pytest_cache/
-
-# Logs and envs
+# Логи та конфіги
 *.log
 .env
 
-# Docker
-*.sqlite3
+# IDE
+.idea/
+.vscode/
 
-# System files
+# Тести та покриття
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Системні файли
 .DS_Store
 Thumbs.db
